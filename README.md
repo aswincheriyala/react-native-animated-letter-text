@@ -16,9 +16,9 @@ Once installed, you can import and use the `AnimatedText` component in your Reac
 import AnimatedColorView from "react-native-animated-text";
 ```
 
-<img  src="https://firebasestorage.googleapis.com/v0/b/aswinc-90380.appspot.com/o/images%2Fanimated-text%2Fanimated-text-1.gif?alt=media"  width="300"  height="300" />
-
 ### Basic Usage
+
+<img  src="https://firebasestorage.googleapis.com/v0/b/aswinc-90380.appspot.com/o/images%2Fanimated-text%2Fanimated-text-1.gif?alt=media"  width="300"  height="300" />
 
 ```jsx
 import React, { useState } from "react";
