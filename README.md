@@ -1,11 +1,11 @@
-#  React Native Animated Letters 🚀
+#  React Native Animated Letter Text 🚀
 
 This library adds captivating letters animations to your React Native apps, perfect for dynamic interfaces like meter boards.💥
 
 ## Installation
 
 ```bash
-npm install react-native-animated-letters
+npm install react-native-animated-letter-text
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install react-native-animated-letters
 Once installed, you can import and use the `AnimatedLetterText` component in your React Native application.
 
 ```javascript
-import AnimatedLetterText from "react-native-animated-letters";
+import AnimatedLetterText from "react-native-animated-letter-text";
 ```
 
 ### Basic Usage
@@ -23,7 +23,7 @@ import AnimatedLetterText from "react-native-animated-letters";
 ```jsx
 import React, { useState } from "react";
 import { View, StyleSheet, Button } from "react-native";
-import AnimatedLetterText from "react-native-animated-letters";
+import AnimatedLetterText from "react-native-animated-letter-text";
 
 const App = () => {
   const [value, setValue] = useState(1); // The value you want to display
@@ -85,7 +85,7 @@ export default App;
 ```javascript
 import { View, Text, StyleSheet, Button } from "react-native";
 import React, { useState } from "react";
-import AnimatedLetterText from "react-native-animated-letters";
+import AnimatedLetterText from "react-native-animated-letter-text";
 import Slider from "@react-native-community/slider";
 
 export default function App() {

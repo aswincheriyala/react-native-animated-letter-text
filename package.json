@@ -1,5 +1,5 @@
 {
-  "name": "react-native-animated-letters",
+  "name": "react-native-animated-letter-text",
   "version": "1.0.0",
   "description": "Animate Text effortlessly in your React Native applications.",
   "main": "index.tsx",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aswincheriyala/react-native-animated-letters.git"
+    "url": "git+https://github.com/aswincheriyala/react-native-animated-letter-text.git"
   },
   "keywords": [
     "react-native",
@@ -27,9 +27,9 @@
   "author": "Aswin C",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aswincheriyala/react-native-animated-letters/issues"
+    "url": "https://github.com/aswincheriyala/react-native-animated-letter-text/issues"
   },
-  "homepage": "https://github.com/aswincheriyala/react-native-animated-letters#readme",
+  "homepage": "https://github.com/aswincheriyala/react-native-animated-letter-text#readme",
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.59.0"
   }
