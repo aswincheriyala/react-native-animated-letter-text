@@ -63,8 +63,8 @@ export default App;
 | `letterStyle`              | Additional styles for each animated letter.     | `TextStyle` | `{}`      |
 | `translateValue`           | Adjust the translation distance for animation effect. | `number` | `30`      |
 | `isSameAnimationDelay`     | Set whether all letters have the same animation delay. | `boolean` | `false`   |
-| `disableEntryTranslation`  | Disable entry translations (animation from top). | `boolean` | `false`   |
-| `disableExitTranslation`   | Disable exit translations (animation to top).   | `boolean` | `false`   |
+| `disableEntryTranslation`  | Disable entry translation effect. | `boolean` | `false`   |
+| `disableExitTranslation`   | Disable exit translation effect.   | `boolean` | `false`   |
 | `textVertical`             | Set text orientation to vertical.               | `boolean` | `false`   |
 | `animateHorizontally`      | Enable horizontal animation.                    | `boolean` | `false`   |
 | `animateEntryHorizontally` | Enable horizontal entry animation.              | `boolean` | `false`   |
@@ -87,19 +87,19 @@ The `AnimatedText` component accepts the following props:
 
 - `isSameAnimationDelay` (optional, default: `false`): If `true`, all letters will have the same animation delay. If `false`, letters will have random animation delays.
 
-- `disableEntryTranslation` (optional, default: `false`): If `true`, entry translations (animation from top) will be disabled.
+- `disableEntryTranslation` (optional, default: `false`): If `true`, entry translations will be disabled.
 
-- `disableExitTranslation` (optional, default: `false`): If `true`, exit translations (animation to top) will be disabled.
+- `disableExitTranslation` (optional, default: `false`): If `true`, exit translations will be disabled.
 
 - `textVertical` (optional, default: `false`): If `true`, the text orientation will be vertical; otherwise, it will be horizontal.
 
-- `animateHorizontally` (optional, default: `false`): If `true`, horizontal animation will be enabled.
+- `animateHorizontally` (optional, default: `false`): If `true`, horizontal animation will be enabled instead of vertical.
 
-- `animateEntryHorizontally` (optional, default: `false`): If `true`, horizontal entry animation will be enabled.
+- `animateEntryHorizontally` (optional, default: `false`): If `true`, horizontal entry animation will be enabled instead of vertical.
 
-- `animateExitHorizontally` (optional, default: `false`): If `true`, horizontal exit animation will be enabled.
+- `animateExitHorizontally` (optional, default: `false`): If `true`, horizontal exit animation will be enabled instead of vertical.
 
-- `translateValue` (optional, default: `20`): Adjust the translation distance for the animation effect.
+- `translateValue` (optional, default: `30`): Adjust the translation distance for the animation effect.
 
 - `flipLetter` (optional, default: `false`): If `true`, a letter flip effect will be applied for an additional animation dimension.
 
@@ -113,7 +113,7 @@ You can customize the appearance of the animated text by providing styles throug
 
 ## Advance Example
 
-<img  src="https://firebasestorage.googleapis.com/v0/b/aswinc-90380.appspot.com/o/images%2Fanimated-text%2Fanimated-text-2.gif?alt=media"  width="300"  height="300" />
+<img  src="https://firebasestorage.googleapis.com/v0/b/aswinc-90380.appspot.com/o/images%2Fanimated-text%2Fanimated-text-2.gif?alt=media"  width="300"  height="400" />
 
 
 ```javascript
