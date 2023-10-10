@@ -2,6 +2,8 @@
 
 The `AnimatedText` component is a custom React Native component that provides a visually appealing way to animate changes in text or numbers. It's particularly useful for creating dynamic interfaces where numbers or text need to change with an engaging animation effect, such as a meter board.
 
+<img  src="https://firebasestorage.googleapis.com/v0/b/aswinc-90380.appspot.com/o/images%2Fanimated-text%2Fanimated-text-1.gif?alt=media"  width="300"  height="300" />
+
 ## Installation
 
 ```bash
@@ -109,7 +111,10 @@ The `AnimatedText` component accepts the following props:
 You can customize the appearance of the animated text by providing styles through the `containerStyle` and `letterStyle` props.
 
 
-## More Example
+## Advance Example
+
+<img  src="https://firebasestorage.googleapis.com/v0/b/aswinc-90380.appspot.com/o/images%2Fanimated-text%2Fanimated-text-2.gif?alt=media"  width="300"  height="300" />
+
 
 ```javascript
 import {View, Text, StyleSheet, Button} from 'react-native';
