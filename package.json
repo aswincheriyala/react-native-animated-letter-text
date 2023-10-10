@@ -1,0 +1,36 @@
+{
+  "name": "react-native-animated-text",
+  "version": "1.0.0",
+  "description": "Animate Text effortlessly in your React Native applications.",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aswincheriyala/react-native-animated-text.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "animation",
+    "smooth",
+    "usenativedriver"
+  ],
+  "author": "Aswin C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aswincheriyala/react-native-animated-text/issues"
+  },
+  "homepage": "https://github.com/aswincheriyala/react-native-animated-text#readme",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.59.0"
+  }
+}
