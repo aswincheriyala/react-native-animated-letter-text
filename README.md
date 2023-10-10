@@ -1,6 +1,6 @@
-# AnimatedText Component
+#  React Native Animated Text 🚀
 
-The AnimatedText component adds captivating text and number animations to your React Native apps, perfect for dynamic interfaces like meter boards.
+This library adds captivating text and number animations to your React Native apps, perfect for dynamic interfaces like meter boards.💥
 
 ## Installation
 
@@ -13,7 +13,7 @@ npm install --save react-native-animated-text
 Once installed, you can import and use the `AnimatedText` component in your React Native application.
 
 ```javascript
-import AnimatedColorView from "react-native-animated-text";
+import AnimatedText from "react-native-animated-text";
 ```
 
 ### Basic Usage
@@ -78,7 +78,7 @@ export default App;
 | `flipLetter`               | Apply a letter flip effect.                                                                                       | `boolean`            | `false`     |
 | `animateOnLoad`            | Enable animation when component loads.                                                                            | `boolean`            | `true`      |
 
-## Advance Example
+## Advance Usage
 
 <img  src="https://firebasestorage.googleapis.com/v0/b/aswinc-90380.appspot.com/o/images%2Fanimated-text%2Fanimated-text-2.gif?alt=media"  width="300"  height="400" />
 
