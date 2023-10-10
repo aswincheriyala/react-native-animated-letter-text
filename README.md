@@ -1,6 +1,6 @@
 # AnimatedText Component
 
-The `AnimatedText` component is a custom React Native component that provides a visually appealing way to animate changes in text or numbers. It's particularly useful for creating dynamic interfaces where numbers or text need to change with an engaging animation effect, such as a meter board.
+The AnimatedText component adds captivating text and number animations to your React Native apps, perfect for dynamic interfaces like meter boards.
 
 <img  src="https://firebasestorage.googleapis.com/v0/b/aswinc-90380.appspot.com/o/images%2Fanimated-text%2Fanimated-text-1.gif?alt=media"  width="300"  height="300" />
 
@@ -72,43 +72,6 @@ export default App;
 | `flipLetter`               | Apply a letter flip effect.                    | `boolean` | `false`   |
 | `animateOnLoad`            | Enable animation when component loads.          | `boolean` | `true`    |
 
-
-## Props
-
-The `AnimatedText` component accepts the following props:
-
-- `value` (required): The value you want to display and animate.
-
-- `animationDirection` (optional, default: `'default'`): The type of animation to use. It can be `'top-to-bottom'`, `'bottom-to-top'`, `'random'`, or `'default'`.
-
-- `containerStyle` (optional): Additional styles to apply to the container View.
-
-- `letterStyle` (optional): Additional styles to apply to each animated letter.
-
-- `isSameAnimationDelay` (optional, default: `false`): If `true`, all letters will have the same animation delay. If `false`, letters will have random animation delays.
-
-- `disableEntryTranslation` (optional, default: `false`): If `true`, entry translations will be disabled.
-
-- `disableExitTranslation` (optional, default: `false`): If `true`, exit translations will be disabled.
-
-- `textVertical` (optional, default: `false`): If `true`, the text orientation will be vertical; otherwise, it will be horizontal.
-
-- `animateHorizontally` (optional, default: `false`): If `true`, horizontal animation will be enabled instead of vertical.
-
-- `animateEntryHorizontally` (optional, default: `false`): If `true`, horizontal entry animation will be enabled instead of vertical.
-
-- `animateExitHorizontally` (optional, default: `false`): If `true`, horizontal exit animation will be enabled instead of vertical.
-
-- `translateValue` (optional, default: `30`): Adjust the translation distance for the animation effect.
-
-- `flipLetter` (optional, default: `false`): If `true`, a letter flip effect will be applied for an additional animation dimension.
-
-- `animateOnLoad` (optional, default: true): Enable animation when the component loads.
-
-
-## Customization
-
-You can customize the appearance of the animated text by providing styles through the `containerStyle` and `letterStyle` props.
 
 
 ## Advance Example
@@ -240,6 +203,45 @@ const styles = StyleSheet.create({
   }
 });
 ```
+
+
+## Props
+
+The `AnimatedText` component accepts the following props:
+
+- `value` (required): The value you want to display and animate.
+
+- `animationDirection` (optional, default: `'default'`): The type of animation to use. It can be `'top-to-bottom'`, `'bottom-to-top'`, `'random'`, or `'default'`.
+
+- `containerStyle` (optional): Additional styles to apply to the container View.
+
+- `letterStyle` (optional): Additional styles to apply to each animated letter.
+
+- `isSameAnimationDelay` (optional, default: `false`): If `true`, all letters will have the same animation delay. If `false`, letters will have random animation delays.
+
+- `disableEntryTranslation` (optional, default: `false`): If `true`, entry translations will be disabled.
+
+- `disableExitTranslation` (optional, default: `false`): If `true`, exit translations will be disabled.
+
+- `textVertical` (optional, default: `false`): If `true`, the text orientation will be vertical; otherwise, it will be horizontal.
+
+- `animateHorizontally` (optional, default: `false`): If `true`, horizontal animation will be enabled instead of vertical.
+
+- `animateEntryHorizontally` (optional, default: `false`): If `true`, horizontal entry animation will be enabled instead of vertical.
+
+- `animateExitHorizontally` (optional, default: `false`): If `true`, horizontal exit animation will be enabled instead of vertical.
+
+- `translateValue` (optional, default: `30`): Adjust the translation distance for the animation effect.
+
+- `flipLetter` (optional, default: `false`): If `true`, a letter flip effect will be applied for an additional animation dimension.
+
+- `animateOnLoad` (optional, default: true): Enable animation when the component loads.
+
+
+## Customization
+
+You can customize the appearance of the animated text by providing styles through the `containerStyle` and `letterStyle` props.
+
 
 <br />
 
