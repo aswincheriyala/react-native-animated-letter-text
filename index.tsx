@@ -243,7 +243,7 @@ function AnimatedLetter({
   );
 }
 
-const AnimatedText = React.memo(
+const AnimatedLetterText = React.memo(
   _AnimatedText,
   (prevProps: AnimatedTextProps, nextProps: AnimatedTextProps) =>
     prevProps.value === nextProps.value &&
@@ -259,4 +259,4 @@ const AnimatedText = React.memo(
     prevProps.animateOnLoad === nextProps.animateOnLoad,
 );
 
-export default AnimatedText;
+export default AnimatedLetterText;

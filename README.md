@@ -1,6 +1,6 @@
-#  React Native Animated Text 🚀
+#  React Native Animated Letters 🚀
 
-This library adds captivating text and number animations to your React Native apps, perfect for dynamic interfaces like meter boards.💥
+This library adds captivating letters animations to your React Native apps, perfect for dynamic interfaces like meter boards.💥
 
 ## Installation
 
@@ -10,10 +10,10 @@ npm install react-native-animated-letters
 
 ## Usage
 
-Once installed, you can import and use the `AnimatedText` component in your React Native application.
+Once installed, you can import and use the `AnimatedLetterText` component in your React Native application.
 
 ```javascript
-import AnimatedText from "react-native-animated-letters";
+import AnimatedLetterText from "react-native-animated-letters";
 ```
 
 ### Basic Usage
@@ -23,14 +23,14 @@ import AnimatedText from "react-native-animated-letters";
 ```jsx
 import React, { useState } from "react";
 import { View, StyleSheet, Button } from "react-native";
-import AnimatedText from "react-native-animated-letters";
+import AnimatedLetterText from "react-native-animated-letters";
 
 const App = () => {
   const [value, setValue] = useState(1); // The value you want to display
 
   return (
     <View style={styles.container}>
-      <AnimatedText value={value} letterStyle={{ fontSize: 20 }} />
+      <AnimatedLetterText value={value} letterStyle={{ fontSize: 20 }} />
       <View style={styles.br} />
       <Button
         title="increment by 4"
@@ -85,7 +85,7 @@ export default App;
 ```javascript
 import { View, Text, StyleSheet, Button } from "react-native";
 import React, { useState } from "react";
-import AnimatedText from "react-native-animated-letters";
+import AnimatedLetterText from "react-native-animated-letters";
 import Slider from "@react-native-community/slider";
 
 export default function App() {
@@ -117,7 +117,7 @@ export default function App() {
         </Text>
         <View style={styles.row}>
           <Text>Different delay</Text>
-          <AnimatedText
+          <AnimatedLetterText
             value={value}
             containerStyle={styles.containerStyle}
             letterStyle={styles.letterStyle}
@@ -125,7 +125,7 @@ export default function App() {
         </View>
         <View style={styles.row}>
           <Text>Flip</Text>
-          <AnimatedText
+          <AnimatedLetterText
             value={value}
             letterStyle={styles.letterStyle}
             containerStyle={{ justifyContent: "center", marginVertical: 20 }}
@@ -135,7 +135,7 @@ export default function App() {
         </View>
         <View style={styles.row}>
           <Text>Same delay</Text>
-          <AnimatedText
+          <AnimatedLetterText
             value={value}
             containerStyle={styles.containerStyle}
             letterStyle={styles.letterStyle}
@@ -144,7 +144,7 @@ export default function App() {
         </View>
         <View style={styles.row}>
           <Text>Vertical</Text>
-          <AnimatedText
+          <AnimatedLetterText
             value={value}
             containerStyle={{ alignSelf: "center", marginTop: 20 }}
             textVertical
@@ -216,7 +216,7 @@ const styles = StyleSheet.create({
 
 ## Props
 
-The `AnimatedText` component accepts the following props:
+The `AnimatedLetterText` component accepts the following props:
 
 - `value` (required): The value you want to display and animate.
 
