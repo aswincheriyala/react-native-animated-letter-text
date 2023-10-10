@@ -2,8 +2,6 @@
 
 The AnimatedText component adds captivating text and number animations to your React Native apps, perfect for dynamic interfaces like meter boards.
 
-<img  src="https://firebasestorage.googleapis.com/v0/b/aswinc-90380.appspot.com/o/images%2Fanimated-text%2Fanimated-text-1.gif?alt=media"  width="300"  height="300" />
-
 ## Installation
 
 ```bash
@@ -17,6 +15,8 @@ Once installed, you can import and use the `AnimatedText` component in your Reac
 ```javascript
 import AnimatedColorView from "react-native-animated-text";
 ```
+
+<img  src="https://firebasestorage.googleapis.com/v0/b/aswinc-90380.appspot.com/o/images%2Fanimated-text%2Fanimated-text-1.gif?alt=media"  width="300"  height="300" />
 
 ### Basic Usage
 
