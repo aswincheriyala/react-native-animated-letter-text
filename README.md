@@ -5,7 +5,7 @@ This library adds captivating text and number animations to your React Native ap
 ## Installation
 
 ```bash
-npm install --save react-native-animated-text
+npm install react-native-animated-letters
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install --save react-native-animated-text
 Once installed, you can import and use the `AnimatedText` component in your React Native application.
 
 ```javascript
-import AnimatedText from "react-native-animated-text";
+import AnimatedText from "react-native-animated-letters";
 ```
 
 ### Basic Usage
@@ -23,7 +23,7 @@ import AnimatedText from "react-native-animated-text";
 ```jsx
 import React, { useState } from "react";
 import { View, StyleSheet, Button } from "react-native";
-import AnimatedText from "react-native-animated-text";
+import AnimatedText from "react-native-animated-letters";
 
 const App = () => {
   const [value, setValue] = useState(1); // The value you want to display
@@ -85,7 +85,7 @@ export default App;
 ```javascript
 import { View, Text, StyleSheet, Button } from "react-native";
 import React, { useState } from "react";
-import AnimatedText from "react-native-animated-text";
+import AnimatedText from "react-native-animated-letters";
 import Slider from "@react-native-community/slider";
 
 export default function App() {
